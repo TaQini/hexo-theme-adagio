@@ -7,7 +7,7 @@
                         href="<% if (index) {%><%- url_for(page.prev_link) %><% } else if (page.prev) { %><%- url_for(page.prev.path) %><% } %>"
                         aria-label="Previous">
                         <span aria-hidden="true">&laquo;
-                            <% if (index) {%>Newer<% } else if (page.prev) { %><%- page.prev.title %><% } else { %>No more<% } %></span>
+                            <% if (index) {%>上一页<% } else if (page.prev) { %><%- page.prev.title %><% } else { %>木有了<% } %></span>
                         <span class="sr-only">Previous</span>
                     </a>
                 </li>
@@ -16,9 +16,9 @@
                         href="<% if (index) {%><%- url_for(page.next_link) %><% } else if (page.next) { %><%- url_for(page.next.path) %><% } %>"
                         aria-label="Next">
                         <span
-                            aria-hidden="true"><% if (index) {%>Older<% } else if (page.next) { %><%- page.next.title %><% } else { %>No more<% } %>
+                            aria-hidden="true"><% if (index) {%>下一页<% } else if (page.next) { %><%- page.next.title %><% } else { %>木有了<% } %>
                             &raquo;</span>
-                        <span class="sr-only">Next</span>
+                        <span class="sr-only">下一页</span>
                     </a>
                 </li>
             </ul>
@@ -28,7 +28,7 @@
                         href="<% if (index) {%><%- url_for(page.prev_link) %><% } else if (page.prev) { %><%- url_for(page.prev.path) %><% } %>"
                         aria-label="Previous">
                         <span aria-hidden="true">&laquo;
-                            <% if (index) {%>Newer<% } else if (page.prev) { %><%- page.prev.title %><% } else { %>No more<% } %></span>
+                            <% if (index) {%>上一页<% } else if (page.prev) { %><%- page.prev.title %><% } else { %>木有了<% } %></span>
                         <span class="sr-only">Previous</span>
                     </a>
                 </li>
@@ -37,9 +37,9 @@
                         href="<% if (index) {%><%- url_for(page.next_link) %><% } else if (page.next) { %><%- url_for(page.next.path) %><% } %>"
                         aria-label="Next">
                         <span
-                            aria-hidden="true"><% if (index) {%>Older<% } else if (page.next) { %><%- page.next.title %><% } else { %>No more<% } %>
+                            aria-hidden="true"><% if (index) {%>下一页<% } else if (page.next) { %><%- page.next.title %><% } else { %>木有了<% } %>
                             &raquo;</span>
-                        <span class="sr-only">Next</span>
+                        <span class="sr-only">下一页</span>
                     </a>
                 </li>
             </ul>

@@ -1,3 +1,11 @@
+# 汉化说明
+本仓库对hexo-adagio主题进行汉化并作出了一些修改
+新增功能如下：
+ - 新增ICP备案信息，可在`_config.yml`中进行配置
+
+
+以下为原作者说明文档
+
 # hexo-theme-adagio
 A simple, elegant, calm, responsive Hexo theme
 

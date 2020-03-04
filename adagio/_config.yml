@@ -125,3 +125,10 @@ google_track_id: UA-11111111-1
 
 # Mathjax
 mathjax: true
+
+# ICP
+ICP:
+  enable: false
+  url: 
+  text: 
+  icon: 
